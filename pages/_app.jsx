@@ -23,6 +23,7 @@ import Head from 'next/head'
 
 // import PageChange from 'components/PageChange/PageChange.js'
 
+import BottomNav from '../components/layout/BottomNav'
 import 'assets/scss/nextjs-material-kit.scss'
 
 // Router.events.on('routeChangeStart', url => {
@@ -38,23 +39,24 @@ import 'assets/scss/nextjs-material-kit.scss'
 //   ReactDOM.unmountComponentAtNode(document.getElementById('page-transition'))
 //   document.body.classList.remove('body-page-transition')
 // })
-// export const getStaticProps = async ({ Component, router, ctx }) => {
-//   let pageProps = {}
+export const getStaticProps = async ({ Component, router, ctx }) => {
+  let pageProps = {}
 
-//   if (Component.getInitialProps) {
-//     pageProps = await Component.getStaticProps(ctx)
-//   }
+  if (Component.getInitialProps) {
+    pageProps = await Component.getStaticProps(ctx)
+  }
 
-//   return { pageProps }
-// }
+  return { pageProps }
+}
 
 export default function MyApp({ Component, pageProps }) {
   return (
     <React.Fragment>
       <Head>
-        <title>NextJS Material Kit by Creative Tim</title>
+        <title>GALO</title>
       </Head>
       <Component {...pageProps} />
+      <BottomNav />
     </React.Fragment>
   )
 }

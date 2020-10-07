@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
@@ -21,8 +21,8 @@ const useStyles = makeStyles(styles)
 
 export default function Header(props) {
   const classes = useStyles()
-  const [mobileOpen, setMobileOpen] = React.useState(false)
-  React.useEffect(() => {
+  const [mobileOpen, setMobileOpen] = useState(false)
+  useEffect(() => {
     if (props.changeColorOnScroll) {
       window.addEventListener('scroll', headerColorChange)
     }
@@ -58,8 +58,8 @@ export default function Header(props) {
     [classes.fixed]: fixed,
   })
   const brandComponent = (
-    <Link href="/components" as="/components">
-      <Button className={classes.title}>Company Page</Button>
+    <Link href="/" as="/">
+      <Button className={classes.title} /*style={{ color: '#555555' }}*/>{brand}</Button>
     </Link>
   )
   return (
