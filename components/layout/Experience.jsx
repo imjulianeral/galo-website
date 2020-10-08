@@ -64,7 +64,11 @@ export default function Experience() {
           />
         </div> */}
             <div>
-              <img src={require('assets/img/companies/ngk.svg')} alt="NGK" />
+              <img
+                src={require('assets/img/companies/ngk.svg')}
+                alt="NGK"
+                className="slick-image"
+              />
             </div>
             <div>
               <img

@@ -29,7 +29,23 @@ export default function Brands() {
     cssEase: 'linear',
     pauseOnHover: false,
     rows: 2,
-    slidesPerRow: 2,
+    slidesPerRow: 1,
+    responsive: [
+      {
+        breakpoint: 960,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   }
   return (
     <div id="experiencia" className={classes.section}>
@@ -66,7 +82,11 @@ export default function Brands() {
               />
             </div>
             <div>
-              <img src={require('assets/img/brands/apc.png')} alt="APC" />
+              <img
+                src={require('assets/img/brands/apc.png')}
+                alt="APC"
+                className="slick-image"
+              />
             </div>
             <div>
               <img
