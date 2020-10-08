@@ -18,7 +18,7 @@ export default function Experience() {
   const classes = useStyles()
   const imageClasses = classNames(classes.imgRaised, classes.imgRounded, classes.imgFluid)
   return (
-    <div id="experience" className={classes.section}>
+    <div id="experiencia" className={classes.section}>
       <h2 className={classes.title}>Empresas que confian en nosotros.</h2>
       <div>
         <GridContainer>

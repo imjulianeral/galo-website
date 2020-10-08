@@ -70,7 +70,7 @@ export default function LandingPage(props) {
             <Button
               color="danger"
               size="lg"
-              href="#services"
+              href="#servicios"
               style={{ marginLeft: '5rem' }}
             >
               Conoce Nuestros Servicios

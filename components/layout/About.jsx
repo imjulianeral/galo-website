@@ -16,7 +16,7 @@ const useStyles = makeStyles(styles)
 export default function About() {
   const classes = useStyles()
   return (
-    <div id="about" className={classes.section}>
+    <div id="acerca" className={classes.section}>
       <h2 className={classes.title}>Acerca de nosotros.</h2>
       <div>
         <GridContainer justify="center">

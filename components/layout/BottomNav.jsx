@@ -29,10 +29,14 @@ export default function BottomNav() {
         showLabels
         className={classes.root}
       >
-        <BottomNavigationAction href="#services" label="Servicios" icon={<Apps />} />
-        <BottomNavigationAction href="#about" label="Acerca" icon={<Info />} />
-        <BottomNavigationAction href="#experience" label="Experiencia" icon={<Work />} />
-        <BottomNavigationAction href="#contact" label="Contacto" icon={<ContactMail />} />
+        <BottomNavigationAction href="#servicios" label="Servicios" icon={<Apps />} />
+        <BottomNavigationAction href="#acerca" label="Acerca" icon={<Info />} />
+        <BottomNavigationAction href="#experiencia" label="Experiencia" icon={<Work />} />
+        <BottomNavigationAction
+          href="#contacto"
+          label="Contacto"
+          icon={<ContactMail />}
+        />
       </BottomNavigation>
     </Hidden>
   )

@@ -31,7 +31,7 @@ export default function Services() {
   const profileClasses = useProfileStyles()
 
   return (
-    <div id="services" className={classes.section} style={{ paddingBottom: '0' }}>
+    <div id="servicios" className={classes.section} style={{ paddingBottom: '0' }}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Servicios.</h2>

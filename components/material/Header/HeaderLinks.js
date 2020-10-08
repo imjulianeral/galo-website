@@ -1,5 +1,4 @@
 /*eslint-disable*/
-import useMobile from 'hooks/useMobile'
 
 // @material-ui/core components
 import { makeStyles } from '@material-ui/core/styles'
@@ -7,6 +6,7 @@ import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import Tooltip from '@material-ui/core/Tooltip'
 import Hidden from '@material-ui/core/Hidden'
+import useMediaQuery from '@material-ui/core/useMediaQuery'
 
 // @material-ui/icons
 import { Apps, Info, Mail, Work } from '@material-ui/icons'
@@ -19,7 +19,7 @@ const useStyles = makeStyles(styles)
 
 export default function HeaderLinks(props) {
   const classes = useStyles()
-  const isMobile = useMobile()
+  const matches = useMediaQuery('(min-width:960px)')
 
   return (
     <List className={classes.list}>
@@ -42,22 +42,22 @@ export default function HeaderLinks(props) {
       </ListItem> */}
       <Hidden only={['sm', 'xs']}>
         <ListItem className={classes.listItem} /*style={{ color: '#555555' }}*/>
-          <Button href="#services" color="transparent" className={classes.navLink}>
+          <Button href="#servicios" color="transparent" className={classes.navLink}>
             <Apps /> Servicios
           </Button>
         </ListItem>
         <ListItem className={classes.listItem} /*style={{ color: '#555555' }}*/>
-          <Button href="#about" color="transparent" className={classes.navLink}>
+          <Button href="#acerca" color="transparent" className={classes.navLink}>
             <Info /> Acerca
           </Button>
         </ListItem>
         <ListItem className={classes.listItem} /*style={{ color: '#555555' }}*/>
-          <Button href="#experience" color="transparent" className={classes.navLink}>
+          <Button href="#experiencia" color="transparent" className={classes.navLink}>
             <Work /> Experiencia
           </Button>
         </ListItem>
         <ListItem className={classes.listItem} /*style={{ color: '#555555' }}*/>
-          <Button href="#contact" color="transparent" className={classes.navLink}>
+          <Button href="#contacto" color="transparent" className={classes.navLink}>
             <Mail /> Contacto
           </Button>
         </ListItem>
@@ -93,9 +93,9 @@ export default function HeaderLinks(props) {
           >
             <i
               className={classes.socialIcons + ' fab fa-twitter'}
-              style={{ marginRight: isMobile ? '1rem' : '0' }}
+              style={{ marginRight: !matches ? '1rem' : '0' }}
             />
-            {isMobile && 'Síguenos en twitter'}
+            {!matches && 'Síguenos en twitter'}
           </Button>
         </Tooltip>
       </ListItem>
@@ -115,9 +115,9 @@ export default function HeaderLinks(props) {
           >
             <i
               className={classes.socialIcons + ' fab fa-facebook'}
-              style={{ marginRight: isMobile ? '1rem' : '0' }}
+              style={{ marginRight: !matches ? '1rem' : '0' }}
             />
-            {isMobile && 'Síguenos en facebook'}
+            {!matches && 'Síguenos en facebook'}
           </Button>
         </Tooltip>
       </ListItem>
@@ -137,9 +137,9 @@ export default function HeaderLinks(props) {
           >
             <i
               className={classes.socialIcons + ' fab fa-instagram'}
-              style={{ marginRight: isMobile ? '1rem' : '0' }}
+              style={{ marginRight: !matches ? '1rem' : '0' }}
             />
-            {isMobile && 'Síguenos en instagram'}
+            {!matches && 'Síguenos en instagram'}
           </Button>
         </Tooltip>
       </ListItem>

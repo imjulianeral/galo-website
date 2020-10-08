@@ -113,7 +113,7 @@ export default function Contact() {
   }
 
   return (
-    <div id="contact" className={classes.section}>
+    <div id="contacto" className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Trabaja con nosotros.</h2>
