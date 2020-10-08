@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 
+import * as THREE from 'three'
 import BIRDS from 'vanta/dist/vanta.net.min.js'
 
 export default function Vanta() {
@@ -11,6 +12,7 @@ export default function Vanta() {
       setVantaEffect(
         BIRDS({
           el: myRef.current,
+          THREE: THREE,
           mouseControls: true,
           touchControls: true,
           gyroControls: false,

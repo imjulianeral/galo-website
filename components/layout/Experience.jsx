@@ -25,7 +25,7 @@ export default function Experience() {
           <GridItem xs={6} sm={6} md={4}>
             <img
               src={require('assets/img/companies/donaldson.png')}
-              alt="..."
+              alt="Donaldson"
               className={imageClasses}
             />
             <h4 className={classes.cardTitle}>Donaldson</h4>
@@ -33,7 +33,7 @@ export default function Experience() {
           <GridItem xs={6} sm={6} md={4}>
             <img
               src={require('assets/img/companies/insa.jpg')}
-              alt="..."
+              alt="Insa"
               className={imageClasses}
             />
             <h4 className={classes.cardTitle}>Insa</h4>
@@ -41,7 +41,7 @@ export default function Experience() {
           <GridItem xs={6} sm={6} md={4}>
             <img
               src={require('assets/img/companies/jatco.png')}
-              alt="..."
+              alt="Jatco"
               className={imageClasses}
             />
             <h4 className={classes.cardTitle}>Jatco</h4>
@@ -49,7 +49,7 @@ export default function Experience() {
           <GridItem xs={6} sm={6} md={4}>
             <img
               src={require('assets/img/companies/eden.png')}
-              alt="..."
+              alt="Mina el Eden"
               className={imageClasses}
             />
             <h4 className={classes.cardTitle}>Mina el Edén</h4>
@@ -57,7 +57,7 @@ export default function Experience() {
           <GridItem xs={6} sm={6} md={4}>
             <img
               src={require('assets/img/companies/ngk.png')}
-              alt="..."
+              alt="NGK"
               className={imageClasses}
             />
             <h4 className={classes.cardTitle}>NGK</h4>
@@ -65,7 +65,7 @@ export default function Experience() {
           <GridItem xs={6} sm={6} md={4}>
             <img
               src={require('assets/img/companies/vorwerk.png')}
-              alt="..."
+              alt="VORWERK"
               className={imageClasses}
             />
             <h4 className={classes.cardTitle}>VORWERK</h4>

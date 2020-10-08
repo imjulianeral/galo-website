@@ -63,6 +63,7 @@ export default function LandingPage(props) {
                       padding: '1rem',
                     }
               }
+              alt="GALO logo"
               src={require('assets/img/galo.svg')}
             />
             <br />
