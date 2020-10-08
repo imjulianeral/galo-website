@@ -27,6 +27,7 @@ export default function Experience() {
     speed: 3000,
     autoplaySpeed: 3000,
     cssEase: 'linear',
+    pauseOnHover: false,
   }
   return (
     <div id="experiencia" className={classes.section}>

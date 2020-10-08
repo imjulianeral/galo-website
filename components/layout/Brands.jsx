@@ -27,6 +27,7 @@ export default function Brands() {
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: 'linear',
+    pauseOnHover: false,
     rows: 2,
     slidesPerRow: 2,
   }
