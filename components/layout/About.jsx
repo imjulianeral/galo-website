@@ -20,7 +20,7 @@ export default function About() {
       <h2 className={classes.title}>Acerca de nosotros.</h2>
       <div>
         <GridContainer justify="center">
-          <GridItem xs={12} sm={12} md={6}>
+          <GridItem xs={12} sm={12} md={8}>
             <CustomTabs
               headerColor="info"
               style={{ justifyContent: 'center' }}
@@ -29,7 +29,10 @@ export default function About() {
                   tabName: 'Misión',
                   tabIcon: TrackChanges,
                   tabContent: (
-                    <p className={classes.textCenter}>
+                    <p
+                      className={classes.textCenter}
+                      style={{ fontSize: '18px', marginTop: '1rem' }}
+                    >
                       Ofrecer soluciones integrales de telecomunicaciones, manteniendo un
                       estándar de calidad alto con un excelente prestigio. Buscando
                       siempre la mejora continua de acuerdo a las necesidades del usuario
@@ -41,7 +44,10 @@ export default function About() {
                   tabName: 'Visión',
                   tabIcon: Visibility,
                   tabContent: (
-                    <p className={classes.textCenter}>
+                    <p
+                      className={classes.textCenter}
+                      style={{ fontSize: '18px', marginTop: '1rem' }}
+                    >
                       Ser una de las empresas líderes en el país en el área de
                       telecomunicaciones, ofreciendo una solución integral, cubriendo las
                       necesidades de los usuarios.
@@ -53,7 +59,10 @@ export default function About() {
                   tabIcon: Room,
                   tabContent: (
                     <>
-                      <p className={classes.textCenter}>
+                      <p
+                        className={classes.textCenter}
+                        style={{ fontSize: '18px', marginTop: '1rem' }}
+                      >
                         Vista de la pradera #166 fracc. Lomas de vista bella C.P. 20298
                       </p>
                       <iframe
