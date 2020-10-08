@@ -21,7 +21,7 @@ export default function Brands() {
     dots: false,
     arrows: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 10,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -30,22 +30,15 @@ export default function Brands() {
     pauseOnHover: false,
     rows: 2,
     slidesPerRow: 1,
-    // responsive: [
-    //   {
-    //     breakpoint: 960,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 2,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 600,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    // ],
+    responsive: [
+      {
+        breakpoint: 960,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   }
   return (
     <div id="experiencia" className={classes.section}>
