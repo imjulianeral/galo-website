@@ -17,8 +17,9 @@ import Button from 'components/material/CustomButtons/Button.js'
 import Vanta from 'components/layout/Vanta'
 import Services from 'components/layout/Services'
 import Experience from 'components/layout/Experience'
-import Contact from '../components/layout/Contact'
-import About from '../components/layout/About'
+import Contact from 'components/layout/Contact'
+import About from 'components/layout/About'
+import Brands from 'components/layout/Brands'
 
 import styles from 'assets/jss/nextjs-material-kit/pages/components.js'
 import Video from '../components/layout/Video'
@@ -56,7 +57,7 @@ export default function LandingPage(props) {
                 matches
                   ? {
                       maxWidth: '100%',
-                      marginLeft: '5rem',
+                      // marginLeft: '5rem',
                     }
                   : {
                       maxWidth: '100%',
@@ -84,8 +85,9 @@ export default function LandingPage(props) {
           <About />
         </div>
         <Vanta />
+        <Experience />
+        <Brands />
         <div className={classes.container}>
-          <Experience />
           <Contact />
         </div>
       </div>
