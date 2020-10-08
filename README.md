@@ -1,1 +1,1 @@
-# NextJS Material UI Boilerplate
+# GALO WEBSITE
