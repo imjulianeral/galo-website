@@ -15,9 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from 'react'
 // import ReactDOM from 'react-dom'
-import App from 'next/app'
 import Head from 'next/head'
 // import Router from 'next/router'
 
