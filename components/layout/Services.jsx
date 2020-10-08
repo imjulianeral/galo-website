@@ -163,7 +163,7 @@ export default function Services() {
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={8}>
-            <Button color="primary" href="#contact" round>
+            <Button color="primary" href="#contacto" round>
               <Mail className={classes.icons} /> Contáctanos
             </Button>
           </GridItem>
