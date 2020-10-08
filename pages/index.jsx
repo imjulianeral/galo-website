@@ -47,7 +47,7 @@ export default function LandingPage(props) {
         {...rest}
       />
       {/* <Parallax filter responsive image={require('assets/img/db.gif')}> */}
-      <Parallax filter responsive style={{ backgroundColor: '#ffffff' }}>
+      <Parallax filter responsive={true} style={{ backgroundColor: '#ffffff' }}>
         <Video />
         <GridContainer style={{ position: 'absolute', zIndex: '2' }}>
           <GridItem xs={12} sm={12} md={6}>
