@@ -44,7 +44,7 @@ export default function Brands() {
           <Carousel {...settings}>
             <div>
               <img
-                src={require('assets/img/brands/avaya.png')}
+                src={require('assets/img/brands/avaya.png?webp')}
                 alt="Avaya"
                 className="slick-image"
                 width="100%"
@@ -53,7 +53,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/alhua.png')}
+                src={require('assets/img/brands/alhua.png?webp')}
                 alt="alhua"
                 className="slick-image"
                 width="100%"
@@ -62,7 +62,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/alliede.png')}
+                src={require('assets/img/brands/alliede.png?webp')}
                 alt="alliede"
                 className="slick-image"
                 width="100%"
@@ -71,7 +71,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/charofil.png')}
+                src={require('assets/img/brands/charofil.png?webp')}
                 alt="charofil"
                 className="slick-image"
                 width="100%"
@@ -80,7 +80,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/apc.png')}
+                src={require('assets/img/brands/apc.png?webp')}
                 alt="APC"
                 className="slick-image"
                 width="100%"
@@ -89,7 +89,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/aruba.png')}
+                src={require('assets/img/brands/aruba.png?webp')}
                 alt="aruba"
                 className="slick-image"
                 width="100%"
@@ -98,7 +98,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/belden.png')}
+                src={require('assets/img/brands/belden.png?webp')}
                 alt="belden"
                 className="slick-image"
                 width="100%"
@@ -107,7 +107,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/cablofil.png')}
+                src={require('assets/img/brands/cablofil.png?webp')}
                 alt="cablofil"
                 className="slick-image"
                 width="100%"
@@ -116,7 +116,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/cisco.png')}
+                src={require('assets/img/brands/cisco.png?webp')}
                 alt="cisco"
                 className="slick-image"
                 width="100%"
@@ -125,7 +125,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/commscope.png')}
+                src={require('assets/img/brands/commscope.png?webp')}
                 alt="commscope"
                 className="slick-image"
                 width="100%"
@@ -134,7 +134,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/condumex.png')}
+                src={require('assets/img/brands/condumex.png?webp')}
                 alt="condumex"
                 className="slick-image"
                 width="100%"
@@ -143,7 +143,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/dlink.png')}
+                src={require('assets/img/brands/dlink.png?webp')}
                 alt="d-link"
                 className="slick-image"
                 width="100%"
@@ -152,7 +152,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/epcom.png')}
+                src={require('assets/img/brands/epcom.png?webp')}
                 alt="epcom"
                 className="slick-image"
                 width="100%"
@@ -161,7 +161,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/firelite.png')}
+                src={require('assets/img/brands/firelite.png?webp')}
                 alt="firelite"
                 className="slick-image"
                 width="100%"
@@ -170,7 +170,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/fluke.png')}
+                src={require('assets/img/brands/fluke.png?webp')}
                 alt="fluke"
                 className="slick-image"
                 width="100%"
@@ -179,7 +179,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/fortinet.png')}
+                src={require('assets/img/brands/fortinet.png?webp')}
                 alt="fortinet"
                 className="slick-image"
                 width="100%"
@@ -188,7 +188,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/honeywell.png')}
+                src={require('assets/img/brands/honeywell.png?webp')}
                 alt="honeywell"
                 className="slick-image"
                 width="100%"
@@ -197,7 +197,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/hp.png')}
+                src={require('assets/img/brands/hp.png?webp')}
                 alt="hp"
                 className="slick-image"
                 width="100%"
@@ -206,7 +206,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/huawei.png')}
+                src={require('assets/img/brands/huawei.png?webp')}
                 alt="huawei"
                 className="slick-image"
                 width="100%"
@@ -215,7 +215,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/ideal.png')}
+                src={require('assets/img/brands/ideal.png?webp')}
                 alt="ideal"
                 className="slick-image"
                 width="100%"
@@ -224,7 +224,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/leviton.png')}
+                src={require('assets/img/brands/leviton.png?webp')}
                 alt="leviton"
                 className="slick-image"
                 width="100%"
@@ -233,7 +233,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/lg.png')}
+                src={require('assets/img/brands/lg.png?webp')}
                 alt="lg"
                 className="slick-image"
                 width="100%"
@@ -242,7 +242,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/notifier.png')}
+                src={require('assets/img/brands/notifier.png?webp')}
                 alt="notifier"
                 className="slick-image"
                 width="100%"
@@ -251,7 +251,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/panasonic.png')}
+                src={require('assets/img/brands/panasonic.png?webp')}
                 alt="panasonic"
                 className="slick-image"
                 width="100%"
@@ -260,7 +260,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/pandout.png')}
+                src={require('assets/img/brands/pandout.png?webp')}
                 alt="pandout"
                 className="slick-image"
                 width="100%"
@@ -269,7 +269,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/notifier.png')}
+                src={require('assets/img/brands/notifier.png?webp')}
                 alt="notifier"
                 className="slick-image"
                 width="100%"
@@ -278,7 +278,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/ruckus.png')}
+                src={require('assets/img/brands/ruckus.png?webp')}
                 alt="ruckus"
                 className="slick-image"
                 width="100%"
@@ -287,7 +287,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/syscom.png')}
+                src={require('assets/img/brands/syscom.png?webp')}
                 alt="syscom"
                 className="slick-image"
                 width="100%"
@@ -296,7 +296,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/toshiba.png')}
+                src={require('assets/img/brands/toshiba.png?webp')}
                 alt="toshiba"
                 className="slick-image"
                 width="100%"
@@ -305,7 +305,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/totalground.png')}
+                src={require('assets/img/brands/totalground.png?webp')}
                 alt="total ground"
                 className="slick-image"
                 width="100%"
@@ -314,7 +314,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/tplink.png')}
+                src={require('assets/img/brands/tplink.png?webp')}
                 alt="tplink"
                 className="slick-image"
                 width="100%"
@@ -323,7 +323,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/tripplite.png')}
+                src={require('assets/img/brands/tripplite.png?webp')}
                 alt="tripp lite"
                 className="slick-image"
                 width="100%"
@@ -332,7 +332,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/tyton.png')}
+                src={require('assets/img/brands/tyton.png?webp')}
                 alt="Hellermann Tyton"
                 className="slick-image"
                 width="100%"
@@ -341,7 +341,7 @@ export default function Brands() {
             </div>
             <div>
               <img
-                src={require('assets/img/brands/ubiquiti.png')}
+                src={require('assets/img/brands/ubiquiti.png?webp')}
                 alt="Ubiquiti"
                 className="slick-image"
                 width="100%"
