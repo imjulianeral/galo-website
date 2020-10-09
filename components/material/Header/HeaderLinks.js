@@ -9,7 +9,7 @@ import Hidden from '@material-ui/core/Hidden'
 import useMediaQuery from '@material-ui/core/useMediaQuery'
 
 // @material-ui/icons
-import { Apps, Info, Mail, Work } from '@material-ui/icons'
+import { Apps, Facebook, Info, Instagram, Mail, Twitter, Work } from '@material-ui/icons'
 // core components
 import Button from 'components/material/CustomButtons/Button.js'
 
@@ -91,8 +91,9 @@ export default function HeaderLinks(props) {
             rel="noopener noreferrer"
             className={classes.navLink}
           >
-            <i
-              className={classes.socialIcons + ' fab fa-twitter'}
+            <Twitter
+              className={classes.socialIcons}
+              fontSize="large"
               style={{ marginRight: !matches ? '1rem' : '0' }}
             />
             {!matches && 'Síguenos en twitter'}
@@ -113,8 +114,9 @@ export default function HeaderLinks(props) {
             rel="noopener noreferrer"
             className={classes.navLink}
           >
-            <i
-              className={classes.socialIcons + ' fab fa-facebook'}
+            <Facebook
+              className={classes.socialIcons}
+              fontSize="large"
               style={{ marginRight: !matches ? '1rem' : '0' }}
             />
             {!matches && 'Síguenos en facebook'}
@@ -135,8 +137,9 @@ export default function HeaderLinks(props) {
             rel="noopener noreferrer"
             className={classes.navLink}
           >
-            <i
-              className={classes.socialIcons + ' fab fa-instagram'}
+            <Instagram
+              className={classes.socialIcons}
+              fontSize="large"
               style={{ marginRight: !matches ? '1rem' : '0' }}
             />
             {!matches && 'Síguenos en instagram'}

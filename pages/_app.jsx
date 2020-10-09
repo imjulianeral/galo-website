@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 // import PageChange from 'components/PageChange/PageChange.js'
 
-import BottomNav from '../components/layout/BottomNav'
+import BottomNav from 'components/layout/BottomNav'
 import 'assets/scss/nextjs-material-kit.scss'
 
 // Router.events.on('routeChangeStart', url => {
