@@ -18,8 +18,9 @@ class MyDocument extends Document {
           {/* Fonts and icons */}
           <link
             rel="preload"
+            as="font"
             type="text/css"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons&display=swap"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700&display=swap"
           />
         </Head>
         <body>
