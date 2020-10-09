@@ -19,16 +19,13 @@ export default function Brands() {
     dots: false,
     arrows: false,
     infinite: true,
-    slidesToShow: 10,
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: 'linear',
     pauseOnHover: false,
-    rows: 2,
-    slidesPerRow: 1,
-    lazyLoad: true,
     responsive: [
       {
         breakpoint: 960,
