@@ -1,5 +1,3 @@
-// nodejs library that concatenates classes
-import classNames from 'classnames'
 // @material-ui/core components
 import { makeStyles } from '@material-ui/core/styles'
 
@@ -28,6 +26,7 @@ export default function Experience() {
     autoplaySpeed: 3000,
     cssEase: 'linear',
     pauseOnHover: false,
+    lazyLoad: true,
     responsive: [
       {
         breakpoint: 600,
@@ -49,6 +48,8 @@ export default function Experience() {
                 src={require('assets/img/companies/donaldson.svg')}
                 alt="Donaldson"
                 className="slick-image"
+                width="100%"
+                height="100%"
               />
             </div>
             {/* <div>
@@ -56,13 +57,17 @@ export default function Experience() {
             src={require('assets/img/companies/insa.jpg')}
             alt="Insa"
             className="slick-image"
-          />
+              width="100%"
+                height="100%"
+            />
         </div> */}
             <div>
               <img
                 src={require('assets/img/companies/jatco.svg')}
                 alt="Jatco"
                 className="slick-image"
+                width="100%"
+                height="100%"
               />
             </div>
             {/* <div>
@@ -70,13 +75,17 @@ export default function Experience() {
             src={require('assets/img/companies/eden.png')}
             alt="Mina el Eden"
             className="slick-image"
-          />
+              width="100%"
+                height="100%"
+            />
         </div> */}
             <div>
               <img
                 src={require('assets/img/companies/ngk.svg')}
                 alt="NGK"
                 className="slick-image"
+                width="100%"
+                height="100%"
               />
             </div>
             <div>
@@ -84,6 +93,8 @@ export default function Experience() {
                 src={require('assets/img/companies/vorwerk.svg')}
                 alt="VORWERK"
                 className="slick-image"
+                width="100%"
+                height="100%"
               />
             </div>
             <div>
@@ -91,6 +102,8 @@ export default function Experience() {
                 src={require('assets/img/companies/marelli.svg')}
                 alt="marelli"
                 className="slick-image"
+                width="100%"
+                height="100%"
               />
             </div>
             <div>
@@ -98,6 +111,8 @@ export default function Experience() {
                 src={require('assets/img/companies/minth.svg')}
                 alt="minth"
                 className="slick-image"
+                width="100%"
+                height="100%"
               />
             </div>
           </Carousel>
