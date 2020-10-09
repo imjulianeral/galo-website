@@ -47,6 +47,8 @@ export default function Brands() {
                 src={require('assets/img/brands/avaya.png')}
                 alt="Avaya"
                 className="slick-image"
+                width="100%"
+                height="100%"
               />
             </div>
             <div>
@@ -54,6 +56,8 @@ export default function Brands() {
                 src={require('assets/img/brands/alhua.png')}
                 alt="alhua"
                 className="slick-image"
+                width="100%"
+                height="100%"
               />
             </div>
             <div>
