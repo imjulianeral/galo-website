@@ -30,8 +30,12 @@ export default function About() {
                   tabIcon: TrackChanges,
                   tabContent: (
                     <p
-                      className={classes.textCenter}
-                      style={{ fontSize: '18px', marginTop: '1rem' }}
+                      style={{
+                        fontSize: '18px',
+                        marginTop: '1rem',
+                        textAlign: 'justify',
+                        textJustify: 'inter-word',
+                      }}
                     >
                       Ofrecer soluciones integrales de telecomunicaciones, manteniendo un
                       estándar de calidad alto con un excelente prestigio. Buscando
@@ -45,8 +49,12 @@ export default function About() {
                   tabIcon: Visibility,
                   tabContent: (
                     <p
-                      className={classes.textCenter}
-                      style={{ fontSize: '18px', marginTop: '1rem' }}
+                      style={{
+                        fontSize: '18px',
+                        marginTop: '1rem',
+                        textAlign: 'justify',
+                        textJustify: 'inter-word',
+                      }}
                     >
                       Ser una de las empresas líderes en el país en el área de
                       telecomunicaciones, ofreciendo una solución integral, cubriendo las
@@ -60,8 +68,12 @@ export default function About() {
                   tabContent: (
                     <>
                       <p
-                        className={classes.textCenter}
-                        style={{ fontSize: '18px', marginTop: '1rem' }}
+                        style={{
+                          fontSize: '18px',
+                          marginTop: '1rem',
+                          textAlign: 'justify',
+                          textJustify: 'inter-word',
+                        }}
                       >
                         Vista de la pradera #166 fracc. Lomas de vista bella C.P. 20298
                       </p>
