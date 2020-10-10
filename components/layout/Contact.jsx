@@ -117,10 +117,10 @@ export default function Contact() {
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Trabaja con nosotros.</h2>
-          <h4 className={classes.description}>
+          <h5 className={classes.description}>
             Puedes contactarnos por teléfono o llenando el siguiente formulario con tus
             datos.
-          </h4>
+          </h5>
           <div className={classes.title}>
             {!isMobile && (
               <>
@@ -190,22 +190,6 @@ export default function Contact() {
                 </Button>
               </>
             )}
-            {/* <Button
-                href="https://maps.google.com/maps?q=Vista+de+la+Pradera+166,+Lomas+de+Vistabella+II,+20298+Aguascalientes,+Ags.,+Mexico&navigate=yes"
-                target="_blank"
-                rel="noopener noreferrer"
-                color="warning"
-                size="lg"
-                justIcon
-                round
-              >
-                <MapIcon />
-              </Button> */}
-            {/* {isMobile ? (
-              <a href="google.navigation:q=San+Francisco">Navigation to San Francisco</a>
-            ) : (
-              <a href="https://maps.google.com/maps?q=San+Francisco&navigate=yes">nav</a>
-            )} */}
           </div>
           <form onSubmit={formik.handleSubmit}>
             <GridContainer>
@@ -314,9 +298,9 @@ export default function Contact() {
                   className={formClasses.formControl}
                   error={formik.touched.service && formik.errors.service && true}
                 >
-                  <InputLabel id="service">Servicio</InputLabel>
+                  <InputLabel id="servicelabel">Servicio</InputLabel>
                   <Select
-                    labelId="service"
+                    labelId="servicelabel"
                     id="service"
                     name="service"
                     value={formik.values.service}

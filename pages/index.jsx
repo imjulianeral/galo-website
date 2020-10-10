@@ -20,9 +20,9 @@ import Experience from 'components/layout/Experience'
 import Contact from 'components/layout/Contact'
 import About from 'components/layout/About'
 import Brands from 'components/layout/Brands'
+import Video from 'components/layout/Video'
 
 import styles from 'assets/jss/nextjs-material-kit/pages/components.js'
-import Video from '../components/layout/Video'
 
 const dashboardRoutes = []
 

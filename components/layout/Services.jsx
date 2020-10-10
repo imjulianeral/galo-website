@@ -57,21 +57,21 @@ export default function Services() {
                         title="Redes IP, Voz y Datos"
                         description={
                           <List component="nav" aria-label="secondary mailbox folders">
-                            <ListItem button>
+                            <ListItem>
                               <ListItemIcon>
                                 <Beenhere style={{ color: 'limegreen' }} />
                               </ListItemIcon>
                               <ListItemText primary="Cableado estructurado, voz y datos." />
                             </ListItem>
                             <Divider />
-                            <ListItem button>
+                            <ListItem>
                               <ListItemIcon>
                                 <Beenhere style={{ color: 'limegreen' }} />
                               </ListItemIcon>
                               <ListItemText primary="Diseño y realización de proyectos de fibra óptica." />
                             </ListItem>
                             <Divider />
-                            <ListItem button>
+                            <ListItem>
                               <ListItemIcon>
                                 <Beenhere style={{ color: 'limegreen' }} />
                               </ListItemIcon>
@@ -79,7 +79,7 @@ export default function Services() {
                             </ListItem>
                             <Divider />
 
-                            <ListItem button>
+                            <ListItem>
                               <ListItemIcon>
                                 <Beenhere style={{ color: 'limegreen' }} />
                               </ListItemIcon>
@@ -102,21 +102,21 @@ export default function Services() {
                       title="Seguridad Electrónica"
                       description={
                         <List component="nav" aria-label="secondary mailbox folders">
-                          <ListItem button>
+                          <ListItem>
                             <ListItemIcon>
                               <Beenhere style={{ color: 'limegreen' }} />
                             </ListItemIcon>
                             <ListItemText primary="Sistemas de detección de incendios." />
                           </ListItem>
                           <Divider />
-                          <ListItem button>
+                          <ListItem>
                             <ListItemIcon>
                               <Beenhere style={{ color: 'limegreen' }} />
                             </ListItemIcon>
                             <ListItemText primary="Alarmas de Intrusión y controles de acceso." />
                           </ListItem>
                           <Divider />
-                          <ListItem button>
+                          <ListItem>
                             <ListItemIcon>
                               <Beenhere style={{ color: 'limegreen' }} />
                             </ListItemIcon>
@@ -138,14 +138,14 @@ export default function Services() {
                       title="Sistemas IP Multimedia"
                       description={
                         <List component="nav" aria-label="secondary mailbox folders">
-                          <ListItem button>
+                          <ListItem>
                             <ListItemIcon>
                               <Beenhere style={{ color: 'limegreen' }} />
                             </ListItemIcon>
                             <ListItemText primary="Sistemas de TV IPTV." />
                           </ListItem>
                           <Divider />
-                          <ListItem button>
+                          <ListItem>
                             <ListItemIcon>
                               <Beenhere style={{ color: 'limegreen' }} />
                             </ListItemIcon>
