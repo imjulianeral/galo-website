@@ -47,7 +47,6 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      {/* <Parallax filter responsive image={require('assets/img/db.gif')}> */}
       <Parallax filter>
         <Video />
         <GridContainer style={{ position: 'absolute', zIndex: '2' }}>
@@ -86,7 +85,9 @@ export default function LandingPage(props) {
           <About />
         </div>
         <Vanta />
-        <Experience />
+        <div className={classes.container}>
+          <Experience />
+        </div>
         <Brands />
         <div className={classes.container}>
           <Contact />

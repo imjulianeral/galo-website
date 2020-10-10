@@ -18,7 +18,7 @@ export default function Experience() {
       </h2>
       <br />
       <GridContainer>
-        <GridItem xs={12} sm={2}>
+        <GridItem xs={4} sm={2}>
           <img
             src={require('assets/img/companies/donaldson.svg')}
             alt="donaldson"
@@ -29,7 +29,7 @@ export default function Experience() {
             }
           />
         </GridItem>
-        <GridItem xs={12} sm={2} className={classes.marginLeft}>
+        <GridItem xs={4} sm={2} className={classes.marginLeft}>
           <img
             src={require('assets/img/companies/jatco.svg')}
             alt="jatco"
@@ -40,7 +40,7 @@ export default function Experience() {
             }
           />
         </GridItem>
-        <GridItem xs={12} sm={2} className={classes.marginLeft}>
+        <GridItem xs={4} sm={2} className={classes.marginLeft}>
           <img
             src={require('assets/img/companies/marelli.svg')}
             alt="marelli"
@@ -51,7 +51,7 @@ export default function Experience() {
             }
           />
         </GridItem>
-        <GridItem xs={12} sm={2} className={classes.marginLeft}>
+        <GridItem xs={4} sm={2} className={classes.marginLeft}>
           <img
             src={require('assets/img/companies/minth.svg')}
             alt="minth"
@@ -62,7 +62,7 @@ export default function Experience() {
             }
           />
         </GridItem>
-        <GridItem xs={12} sm={2} className={classes.marginLeft}>
+        <GridItem xs={4} sm={2} className={classes.marginLeft}>
           <img
             src={require('assets/img/companies/ngk.svg')}
             alt="ngk"
@@ -73,7 +73,7 @@ export default function Experience() {
             }
           />
         </GridItem>
-        <GridItem xs={12} sm={2} className={classes.marginLeft}>
+        <GridItem xs={4} sm={2} className={classes.marginLeft}>
           <img
             src={require('assets/img/companies/vorwerk.svg')}
             alt="vorwerk"
