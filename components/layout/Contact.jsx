@@ -165,7 +165,6 @@ export default function Contact() {
                   justIcon
                   round
                 >
-                  <p style={{ display: 'none' }}>Llama</p>
                   <CallIcon />
                 </Button>
                 <Button
@@ -178,8 +177,6 @@ export default function Contact() {
                   justIcon
                   round
                 >
-                  <p style={{ display: 'none' }}>Mensajea</p>
-
                   <WhatsAppIcon />
                 </Button>
                 <Button
@@ -189,8 +186,6 @@ export default function Contact() {
                   justIcon
                   round
                 >
-                  <p style={{ display: 'none' }}>Visitanos</p>
-
                   <MapIcon />
                 </Button>
               </>

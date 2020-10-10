@@ -9,16 +9,15 @@ export default async (req, res) => {
       ciphers: 'SSLv3',
     },
     auth: {
-      user: 'ggsteel74@outlook.com',
-      pass: 'jjalcs5x17798',
+      user: process.env.EMAIL_ADDRESS,
+      pass: process.env.EMAIL_PASSWORD,
     },
   })
 
   const info = await transporter.sendMail({
-    from: `ggsteel74@outlook.com`,
-    to: 'ggsteel74@outlook.com',
-    // to: 'inst_galo1@hotmail.com',
-    subject: 'Prueba Jorge Acero',
+    from: process.env.EMAIL_ADDRESS,
+    to: process.env.EMAIL_DESTINY,
+    subject: 'EMAIL SITIO WEB GALO',
     html: req.body.template,
   })
 
