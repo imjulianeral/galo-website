@@ -9,12 +9,8 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="description" content="instalaciones de redes galo" />
           <meta name="theme-color" content="#000000" />
-          <link rel="shortcut icon" href={require('assets/img/favicon.png')} />
-          <link
-            rel="apple-touch-icon"
-            sizes="76x76"
-            href={require('assets/img/apple-icon.png')}
-          />
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
           {/* Fonts and icons */}
           <link
             rel="preload"
