@@ -5,7 +5,6 @@ import GridContainer from 'components/material/Grid/GridContainer.js'
 import GridItem from 'components/material/Grid/GridItem.js'
 
 import styles from 'assets/jss/nextjs-material-kit/pages/componentsSections/typographyStyle.js'
-import image from 'assets/img/faces/avatar.jpg'
 
 const useStyles = makeStyles(styles)
 
