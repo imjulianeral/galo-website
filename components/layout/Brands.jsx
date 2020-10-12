@@ -36,7 +36,7 @@ export default function Brands() {
   }
   return (
     <div id="experiencia" className={classes.section}>
-      <h2 className={classes.title}>Las herramientas que usamos.</h2>
+      <h2 className={classes.title}>Manejamos las mejores marcas.</h2>
       <GridContainer>
         <GridItem xs={12} sm={12} md={12} className={classes.marginAuto}>
           <Carousel {...settings}>

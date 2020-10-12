@@ -118,8 +118,8 @@ export default function Contact() {
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Trabaja con nosotros.</h2>
           <h5 className={classes.description}>
-            Puedes contactarnos por teléfono o llenando el siguiente formulario con tus
-            datos.
+            Contactanos a través de nuestro número telefónico o llenando el siguiente
+            formulario con los datos correspondientes.
           </h5>
           <div className={classes.title}>
             {!isMobile && (

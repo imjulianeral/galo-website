@@ -38,9 +38,9 @@ export default function About() {
                       }}
                     >
                       Ofrecer soluciones integrales de telecomunicaciones, manteniendo un
-                      estándar de calidad alto con un excelente prestigio. Buscando
-                      siempre la mejora continua de acuerdo a las necesidades del usuario
-                      para así obtener la satisfacción del mismo.
+                      estándar de calidad alto con un excelente prestigio. Se busca la
+                      mejora continua de acuerdo a las necesidades adecuadas para el
+                      cliente y así obtener la satisfacción del mismo.
                     </p>
                   ),
                 },
@@ -56,9 +56,9 @@ export default function About() {
                         textJustify: 'inter-word',
                       }}
                     >
-                      Ser una de las empresas líderes en el país en el área de
-                      telecomunicaciones, ofreciendo una solución integral, cubriendo las
-                      necesidades de los usuarios.
+                      Formar parte de la lista de empresas líderes en el país dentro del
+                      área de telecomunicaciones, proporcionando una solución integral y
+                      así cubrir las necesidades de nuestros clientes.
                     </p>
                   ),
                 },

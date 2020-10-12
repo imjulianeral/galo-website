@@ -36,8 +36,8 @@ export default function Services() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Servicios.</h2>
           <h5 className={classes.description}>
-            Nuestros servicios buscan satisfacer las necesidades de nuestros clientes;
-            para esto damos un servicio totalmente personalizado a cada cliente.
+            Se busca satisfacer las necesidades de nuestros clientes; es por esto que se
+            ofrece una asistencia totalmente personalizada a cada cliente.
           </h5>
         </GridItem>
       </GridContainer>
