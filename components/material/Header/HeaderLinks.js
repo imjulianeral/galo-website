@@ -87,7 +87,7 @@ export default function HeaderLinks(props) {
           <Button
             target="_blank"
             color="transparent"
-            href="https://twitter.com/GaloInst"
+            href="https://twitter.com/InstGalo"
             rel="noopener noreferrer"
             className={classes.navLink}
           >
@@ -110,7 +110,7 @@ export default function HeaderLinks(props) {
           <Button
             color="transparent"
             target="_blank"
-            href="https://www.facebook.com/Instalaciones-Galo-1272431336191699"
+            href="https://www.facebook.com/Inst-Galo-Telefon%C3%ADa-Cableado-Estructurado-102758788280171"
             rel="noopener noreferrer"
             className={classes.navLink}
           >
@@ -133,7 +133,7 @@ export default function HeaderLinks(props) {
           <Button
             color="transparent"
             target="_blank"
-            href="https://www.instagram.com/instalacionesgalo/"
+            href="https://www.instagram.com/inst_gal0/"
             rel="noopener noreferrer"
             className={classes.navLink}
           >

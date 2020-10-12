@@ -244,6 +244,7 @@ export default function Contact() {
                   inputProps={{
                     id: 'email',
                     name: 'email',
+                    type: 'email',
                     value: formik.values.email,
                     onChange: formik.handleChange,
                     onBlur: formik.handleBlur,
@@ -264,6 +265,7 @@ export default function Contact() {
                   inputProps={{
                     id: 'phone',
                     name: 'phone',
+                    type: 'tel',
                     value: formik.values.phone,
                     onChange: formik.handleChange,
                     onBlur: formik.handleBlur,
