@@ -1,3 +1,4 @@
+import Image from 'next/image'
 // nodejs library that concatenates classes
 import classNames from 'classnames'
 // @material-ui/core components
@@ -23,6 +24,8 @@ import Brands from 'components/layout/Brands'
 import Video from 'components/layout/Video'
 
 import styles from 'assets/jss/nextjs-material-kit/pages/components.js'
+
+import GaloLogo from '../public/galo.svg'
 
 const dashboardRoutes = []
 
@@ -51,23 +54,7 @@ export default function LandingPage(props) {
         <Video />
         <GridContainer style={{ position: 'absolute', zIndex: '2' }}>
           <GridItem xs={12} sm={12} md={6}>
-            <img
-              style={
-                matches
-                  ? {
-                      maxWidth: '100%',
-                    }
-                  : {
-                      maxWidth: '100%',
-                      padding: '1rem',
-                    }
-              }
-              width="100%"
-              height="100%"
-              alt="GALO logo"
-              src={require('assets/img/galo.svg')}
-            />
-            <br />
+            <Image src={GaloLogo} alt="GALO logo" />
             <Button
               color="danger"
               size="lg"

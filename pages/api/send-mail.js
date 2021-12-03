@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer')
 
 export default async (req, res) => {
   const transporter = nodemailer.createTransport({
-    host: 'smtp-mail.outlook.com', // hostname
+    host: 'smtp.gmail.com', // hostname
     secureConnection: false, // TLS requires secureConnection to be false
     port: 587, // port for secure SMTP
     tls: {

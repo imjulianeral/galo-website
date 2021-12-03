@@ -13,7 +13,6 @@ import {
   FormControl,
   FormHelperText,
   Snackbar,
-  Popover,
 } from '@material-ui/core'
 
 // @material-ui/icons
@@ -23,6 +22,7 @@ import {
   Call as CallIcon,
   WhatsApp as WhatsAppIcon,
   Room as MapIcon,
+  Mail as MailIcon,
 } from '@material-ui/icons'
 // core components
 import GridContainer from 'components/material/Grid/GridContainer.js'
@@ -60,7 +60,6 @@ const serviceOptions = [
 
 export default function Contact() {
   const [open, setOpen] = useState(false)
-  const [anchorElTop, setAnchorElTop] = useState(null)
   const isMobile = useMobile()
   const classes = useStyles()
   const formClasses = useFormStyles()
@@ -116,45 +115,56 @@ export default function Contact() {
     <div id="contacto" className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Trabaja con nosotros.</h2>
-          <h5 className={classes.description}>
-            Contactanos a través de nuestro número telefónico o llenando el siguiente
-            formulario con los datos correspondientes.
-          </h5>
           <div className={classes.title}>
             {!isMobile && (
-              <>
-                <Button
-                  color="info"
-                  size="lg"
-                  onClick={event => setAnchorElTop(event.currentTarget)}
-                  justIcon
-                  round
-                >
-                  <CallIcon />
-                </Button>
-                <Popover
-                  classes={{
-                    paper: popoverClasses.popover,
-                  }}
-                  open={Boolean(anchorElTop)}
-                  anchorEl={anchorElTop}
-                  onClose={() => setAnchorElTop(null)}
-                  anchorOrigin={{
-                    vertical: 'top',
-                    horizontal: 'center',
-                  }}
-                  transformOrigin={{
-                    vertical: 'bottom',
-                    horizontal: 'center',
-                  }}
-                >
-                  <h3 className={popoverClasses.popoverHeader}>Teléfono</h3>
-                  <div className={popoverClasses.popoverBody}>449-163-36-00</div>
-                </Popover>
-              </>
+              <GridContainer justify="center">
+                <GridItem cs={12} sm={4}>
+                  <Button color="info" size="lg" justIcon round>
+                    <CallIcon />
+                  </Button>
+                  <div>
+                    <h3 className={popoverClasses.popoverHeader}>Teléfono</h3>
+                    <div className={popoverClasses.popoverBody}>449 163 36 00</div>
+                  </div>
+                </GridItem>
+                <GridItem cs={12} sm={4}>
+                  <Button
+                    href="mailto:inst_galo1@hotmail.com"
+                    color="danger"
+                    size="lg"
+                    justIcon
+                    round
+                  >
+                    <MailIcon />
+                  </Button>
+                  <div>
+                    <h3 className={popoverClasses.popoverHeader}>Correo Electrónico</h3>
+                    <div className={popoverClasses.popoverBody}>
+                      inst_galo1@hotmail.com
+                    </div>
+                  </div>
+                </GridItem>
+                <GridItem cs={12} sm={4}>
+                  <Button
+                    href="https://goo.gl/maps/zgMbXw7ASdAiqgxx9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    color="warning"
+                    size="lg"
+                    justIcon
+                    round
+                  >
+                    <MapIcon />
+                  </Button>
+                  <div>
+                    <h3 className={popoverClasses.popoverHeader}>Ubicación</h3>
+                    <div className={popoverClasses.popoverBody}>
+                      Vista de la pradera #166 fracc. Lomas de vista bella C.P. 20298
+                    </div>
+                  </div>
+                </GridItem>
+              </GridContainer>
             )}
-
             {isMobile && (
               <>
                 <Button
@@ -191,6 +201,11 @@ export default function Contact() {
               </>
             )}
           </div>
+          <h2 className={classes.title}>Trabaja con nosotros.</h2>
+          <h5 className={classes.description}>
+            Contactanos a través de nuestro número telefónico o llenando el siguiente
+            formulario con los datos correspondientes.
+          </h5>
           <form onSubmit={formik.handleSubmit}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>

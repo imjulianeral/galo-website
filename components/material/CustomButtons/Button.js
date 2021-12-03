@@ -1,3 +1,4 @@
+import { forwardRef } from 'react'
 // nodejs library to set properties for components
 import PropTypes from 'prop-types'
 // nodejs library that concatenates classes
@@ -15,7 +16,7 @@ const makeComponentStyles = makeStyles(() => ({
   ...buttonStyle,
 }))
 
-const RegularButton = React.forwardRef((props, ref) => {
+const RegularButton = forwardRef((props, ref) => {
   const {
     color,
     round,

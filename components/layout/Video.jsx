@@ -11,7 +11,7 @@ export default function Video() {
         objectFit: 'cover',
         zIndex: '-1',
       }}
-      src={require('assets/video/video.mp4')}
+      src="./video.mp4"
     />
   )
 }

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 // @material-ui/core components
 import { makeStyles } from '@material-ui/core/styles'
 // core components
@@ -5,6 +6,23 @@ import GridContainer from 'components/material/Grid/GridContainer.js'
 import GridItem from 'components/material/Grid/GridItem.js'
 
 import styles from 'assets/jss/nextjs-material-kit/pages/componentsSections/typographyStyle.js'
+
+// images
+import donaldson from '../../public/img/companies/donaldson.svg'
+import jatco from '../../public/img/companies/jatco.svg'
+import marelli from '../../public/img/companies/marelli.svg'
+import minth from '../../public/img/companies/minth.svg'
+import ngk from '../../public/img/companies/ngk.svg'
+import vorwerk from '../../public/img/companies/vorwerk.svg'
+
+const companies = [
+  { src: donaldson, alt: 'donaldson' },
+  { src: jatco, alt: 'jatco' },
+  { src: marelli, alt: 'marelli' },
+  { src: minth, alt: 'minth' },
+  { src: ngk, alt: 'ngk' },
+  { src: vorwerk, alt: 'vorwerk' },
+]
 
 const useStyles = makeStyles(styles)
 
@@ -18,72 +36,17 @@ export default function Experience() {
       </h2>
       <br />
       <GridContainer>
-        <GridItem xs={4} sm={2}>
-          <img
-            src={require('assets/img/companies/donaldson.svg')}
-            alt="donaldson"
-            width="100%"
-            height="100%"
-            className={
-              classes.imgRaised + ' ' + classes.imgRounded + ' ' + classes.imgFluid
-            }
-          />
-        </GridItem>
-        <GridItem xs={4} sm={2} className={classes.marginLeft}>
-          <img
-            src={require('assets/img/companies/jatco.svg')}
-            alt="jatco"
-            width="100%"
-            height="100%"
-            className={
-              classes.imgRaised + ' ' + classes.imgRounded + ' ' + classes.imgFluid
-            }
-          />
-        </GridItem>
-        <GridItem xs={4} sm={2} className={classes.marginLeft}>
-          <img
-            src={require('assets/img/companies/marelli.svg')}
-            alt="marelli"
-            width="100%"
-            height="100%"
-            className={
-              classes.imgRaised + ' ' + classes.imgRounded + ' ' + classes.imgFluid
-            }
-          />
-        </GridItem>
-        <GridItem xs={4} sm={2} className={classes.marginLeft}>
-          <img
-            src={require('assets/img/companies/minth.svg')}
-            alt="minth"
-            width="100%"
-            height="100%"
-            className={
-              classes.imgRaised + ' ' + classes.imgRounded + ' ' + classes.imgFluid
-            }
-          />
-        </GridItem>
-        <GridItem xs={4} sm={2} className={classes.marginLeft}>
-          <img
-            src={require('assets/img/companies/ngk.svg')}
-            alt="ngk"
-            width="100%"
-            height="100%"
-            className={
-              classes.imgRaised + ' ' + classes.imgRounded + ' ' + classes.imgFluid
-            }
-          />
-        </GridItem>
-        <GridItem xs={4} sm={2} className={classes.marginLeft}>
-          <img
-            src={require('assets/img/companies/vorwerk.svg')}
-            alt="vorwerk"
-            width="100%"
-            height="100%"
-            className={
-              classes.imgRaised + ' ' + classes.imgRounded + ' ' + classes.imgFluid
-            }
-          />
-        </GridItem>
+        {companies.map(({ src, alt }) => (
+          <GridItem xs={4} sm={2}>
+            <div
+              className={
+                classes.imgRaised + ' ' + classes.imgRounded + ' ' + classes.imgFluid
+              }
+            >
+              <Image src={src} alt={alt} />
+            </div>
+          </GridItem>
+        ))}
       </GridContainer>
       <GridContainer />
     </div>
