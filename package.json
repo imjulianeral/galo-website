@@ -16,7 +16,7 @@
     "@material-ui/core": "latest",
     "@material-ui/icons": "^4.11.2",
     "@zeit/next-sass": "1.0.1",
-    "axios": "^0.20.0",
+    "axios": "^0.21.2",
     "classnames": "2.2.6",
     "formik": "^2.2.9",
     "imagemin-mozjpeg": "^9.0.0",
