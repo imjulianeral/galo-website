@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { Fragment } from 'react'
 import { ServerStyleSheets } from '@material-ui/styles'
 
 class MyDocument extends Document {
@@ -43,10 +44,10 @@ MyDocument.getInitialProps = async ctx => {
   return {
     ...initialProps,
     styles: [
-      <React.Fragment key="styles">
+      <Fragment key="styles">
         {initialProps.styles}
         {sheets.getStyleElement()}
-      </React.Fragment>,
+      </Fragment>,
     ],
   }
 }

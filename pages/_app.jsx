@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Fragment } from 'react'
 import BottomNav from 'components/layout/BottomNav'
 import 'assets/scss/nextjs-material-kit.scss'
 
@@ -14,12 +15,12 @@ export const getStaticProps = async ({ Component, router, ctx }) => {
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <React.Fragment>
+    <Fragment>
       <Head>
         <title>GALO</title>
       </Head>
       <Component {...pageProps} />
       <BottomNav />
-    </React.Fragment>
+    </Fragment>
   )
 }
