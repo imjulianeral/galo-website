@@ -21,5 +21,7 @@ export default async (req, res) => {
     html: req.body.template,
   })
 
+  console.log(info)
+
   res.status(200).json(info)
 }
